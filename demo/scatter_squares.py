@@ -16,5 +16,6 @@ plt.tick_params(axis='both', which='major', labelsize=14)
 # 坐标轴取值范围
 plt.axis([0, 1100, 0, 1100000])
 
-plt.savefig('scatter_plot.png', bbox_inches='tight')
+# 保存图片
+# plt.savefig('scatter_plot.png', bbox_inches='tight')
 plt.show()
